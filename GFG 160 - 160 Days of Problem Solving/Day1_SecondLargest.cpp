@@ -15,19 +15,32 @@ Input: arr[] = [10, 10, 10]
 Output: -1
 Explanation: The largest element of the array is 10 and the second largest element does not exist.
 */
+#include <iostream>
+#include <vector>
+using namespace std;
+
 class Solution {
-  public:
+public:
     int getSecondLargest(vector<int> &arr) {
         int sec, max = -1;
-        for (int element : arr){
-            if (element > max){
+        for (int element : arr) {
+            if (element > max) {
                 sec = max;
                 max = element;
-            }
-            if (element > sec & element < max){
+            } else if (element > sec && element < max) {
                 sec = element;
             }
         }
         return sec;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> arr = {10, 20, 4, 45, 99, 99, 88};
+    int secondLargest = sol.getSecondLargest(arr);
+    cout << "Second largest element is: " << secondLargest << endl;
+    return 0;
+}
+
+// Expected Output - 88
