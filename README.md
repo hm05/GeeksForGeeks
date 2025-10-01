@@ -12,12 +12,14 @@ GeeksForGeeks/
 │── LICENSE
 │── README.md
 │── GfG 160 - 160 Days of Problem Solving/
-│ ├── Day1-SecondLargest.cpp
-│ ├── Day1-SecondLargest.exe
-│ ├── Day2-ProblemName.cpp
-│ ├── Day2-ProblemName.exe
-│ ├── Day3-ReverseAnArray.cpp
-│ └── Day3-ReverseAnArray.exe
+│ ├── Day1_SecondLargest.cpp
+│ ├── Day1_SecondLargest.exe
+│ ├── Day2_ProblemName.cpp
+│ ├── Day2_ProblemName.exe
+│ ├── Day3_ReverseAnArray.cpp
+│ ├── Day3_ReverseAnArray.exe
+│ ├── Day4_RotateArray.cpp
+│ └── Day4_RotateArray.exe
 ```
 
 - [**`GfG 160 - 160 Days of Problem Solving`**](https://www.geeksforgeeks.org/courses/gfg-160-series/) → A 160-day coding challenge by **GeeksForGeeks** to improve problem-solving skills.
