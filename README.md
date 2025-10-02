@@ -19,7 +19,9 @@ GeeksForGeeks/
 │ ├── Day3_ReverseAnArray.cpp
 │ ├── Day3_ReverseAnArray.exe
 │ ├── Day4_RotateArray.cpp
-│ └── Day4_RotateArray.exe
+│ ├── Day4_RotateArray.exe
+│ ├── Day5_NextPermutation.cpp
+│ └── Day5_NextPermutation.exe
 ```
 
 - [**`GfG 160 - 160 Days of Problem Solving`**](https://www.geeksforgeeks.org/courses/gfg-160-series/) → A 160-day coding challenge by **GeeksForGeeks** to improve problem-solving skills.
